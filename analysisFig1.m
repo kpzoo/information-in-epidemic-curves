@@ -13,7 +13,7 @@ saveTrue = 0; thisDir = cd;
 
 % Directory of some main code and plotting options
 cd('main'); mainDir = cd;
-cd(thisDir); addpath(mainDir);
+cd(thisDir); addpath(genpath(mainDir));
 
 % Default plotting options
 [grey1, grey2, cmap, fnt] = defaultSet(50);
