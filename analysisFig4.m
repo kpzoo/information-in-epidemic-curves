@@ -7,15 +7,12 @@ clearvars; clc; close all; tic;
 % - comparison on geometric means vs ifr
 % - delays ignored and variations on rho considered
 
-% Aditional plotting/partition package
-addpath(genpath('/Users/kp10/Documents/MATLAB'));
-
 % Save data and directories
 saveTrue = 0; thisDir = cd; saveFol = 'figures';
 
 % Directory of some main code and plotting options
 cd('main'); mainDir = cd;
-cd(thisDir); addpath(mainDir);
+cd(thisDir); addpath(genpath(mainDir));
 
 % Default plotting options
 [grey1, grey2, cmap, fnt] = defaultSet(18);
