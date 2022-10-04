@@ -1,5 +1,5 @@
 # information-in-epidemic-curves
-Code to reproduce the simulated analyses and figures from the paper "Quantifying the information in noisy epidemic curves" at https://www.medrxiv.org/content/10.1101/2022.05.16.22275147v1.
+Code to reproduce the simulated analyses and figures from the paper "Quantifying the information in noisy epidemic curves" at https://www.medrxiv.org/content/10.1101/2022.05.16.22275147v2. Now published in Nature Computational Science at https://www.nature.com/articles/s43588-022-00313-1
 
 - Defines metrics for comparing the influences of under-reporting and reporting delays.
 - Provides insight into the relative reliability (theoretically) of case reports vs death counts.
